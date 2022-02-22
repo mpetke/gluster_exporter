@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ofesseler/gluster_exporter/structs"
+	"github.com/mpetke/gluster_exporter/structs"
 	"github.com/prometheus/common/log"
 )
 

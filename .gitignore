@@ -33,3 +33,5 @@ vendor/*
 
 gluster_exporter
 *.tar.gz
+
+__debug_bin
