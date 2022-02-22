@@ -23,5 +23,3 @@ require (
 	golang.org/x/sys v0.0.0-20200625212154-ddb9806d33ae // indirect
 	google.golang.org/protobuf v1.23.0 // indirect
 )
-
-replace github.com/mpetke/gluster_exporter => /home/uw/go/src/github.com/mpetke/gluster_exporter
