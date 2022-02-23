@@ -149,6 +149,9 @@ func ExecVolumeHealInfo(volumeName string) (int, error) {
 	for _, brick := range healInfo.HealInfo.Bricks.Brick {
 		var count int
 		var err error
+		if brick.NumberOfEntries == "-" {
+			break
+		}
 		count, err = strconv.Atoi(brick.NumberOfEntries)
 		if err != nil {
 			log.Error(err)
